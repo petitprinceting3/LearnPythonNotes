@@ -1,0 +1,70 @@
+#shell
+### python交互模式进入
+python
+### python交互模式退出
+exit()
+
+
+
+#循环
+###提前退出循环 break
+###跳出当前循环论直接下一次循环 continue
+###当遇到死循环，强退用ctrl+C
+
+
+
+#list[]-可变有序
+list = [22,33,44]
+list.append
+list.insert
+list. pop(index)
+
+
+
+#tuple() 初始定义后就不可更改的list
+###定义一个元组，元素为3，4，5
+  a = (3,4,5)
+###定义一个空的元组
+  b = ()
+###定义一个有两个元素的元组 必须有，区别一个元素的元组（2）
+  c = (2,)
+
+
+
+#字典 dictionary：查找速度快-占用内存大-Hash算法
+###初始化创建
+  d = {‘Michael'：95,'Arina'： 85. 'Tracy'：75}
+###查找：
+  d = ['Tracy']
+  75
+###后续放入：
+  d['Adam'] = 99
+  一定要连带key一起放入
+###检查是否存在key
+  ’Adam‘ in d
+###返回key  
+  d.get('Adam')
+###指定value
+  d.get(‘Bob’，59）  
+###删除一个key,对应的value也会删除
+  d.pop('Adam')
+
+
+
+
+#set:没有value的dic，一组key的集合-无序重复元素的集合
+###初始化通过list创建
+  s = set([1,2,3])
+###添加元素，但不可添加重复元素
+  s.add(4)
+###（set可以看成数学上的集合）
+  s1 = set([1,2,3])
+  s2 = set([3,4,5])
+  交集
+  s1 & s2
+  并集
+  s1 | s2
+  
+
+
+  
